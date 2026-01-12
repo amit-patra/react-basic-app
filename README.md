@@ -1,2 +1,4 @@
-# Configure Tailwind Css
-# Add Counter Component
+# CSS
+    - Configure Tailwind Css
+# Inital
+    - Add one Counter Component
