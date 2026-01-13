@@ -1,13 +1,10 @@
-import { useState } from "react";
-import "./App.css";
-import Counter from "./component/Counter";
+import UserDashboard from "./components/UserDashboard";
 
 function App() {
-
   return (
-    <>
-      <Counter />
-    </>
+    <div className="bg-gray-200">
+      <UserDashboard />
+    </div>
   );
 }
 
