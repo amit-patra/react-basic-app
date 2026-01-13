@@ -1,1 +1,4 @@
 @import "tailwindcss";
+
+/* Defines how the dark mode works for the 'class' strategy */
+@custom-variant dark (&:where(.dark, .dark *));

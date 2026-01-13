@@ -5,7 +5,7 @@ const Searchbar = () => {
     <div className="relative pb-1">
       {/* Search Icon */}
       <svg
-        className="absolute left-2 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-500"
+        className="absolute left-2 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-500 dark:text-white"
         fill="none"
         stroke="currentColor"
         viewBox="0 0 24 24"
@@ -20,7 +20,7 @@ const Searchbar = () => {
 
       {/* Input */}
       <input
-        className="w-full bg-white border border-gray-400 p-1 pl-8 rounded-md focus:outline-none"
+        className="w-full bg-white border border-gray-400 p-1 pl-8 rounded-md focus:outline-none dark:bg-black dark:placeholder-white dark:border-gray-700 dark:text-white"
         type="text"
         placeholder="Search User..."
       />

@@ -82,3 +82,9 @@
     4. User list recalculates only when needed (useMemo)
     5. Theme toggle updates UI globally (useContext)
     6. Optimized handlers avoid re-renders (useCallback)
+
+# Configure Dark mode
+
+    1. @custom-variant dark (&:where(.dark, .dark *)); --> Importent to Add
+    2. Add ThemeContext in utils folder
+    2. All class name should be (dark:) as example dark:text-white

@@ -1,10 +1,13 @@
 import UserDashboard from "./components/UserDashboard";
+import { ThemeProvider } from "./utils/ThemeContext";
 
 function App() {
   return (
-    <div className="bg-gray-200">
-      <UserDashboard />
-    </div>
+    <ThemeProvider>
+      <div className="bg-gray-200">
+        <UserDashboard />
+      </div>
+    </ThemeProvider>
   );
 }
 
