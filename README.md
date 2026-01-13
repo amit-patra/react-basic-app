@@ -35,26 +35,33 @@
 
 # Desciption
 
-    Initial UI state (at first render)
+    - Project Scenario: User Management Dashboard
+        🧠 Problem Statement (Real-World)
 
-    Theme: dark (can be toggled)
-    Search: empty ("")
-    Filters panel: hidden
-    Data status: idle (no loading until a query is entered)
-    Cards: six cards displayed — useState, useEffect, useContext, useRef, useMemo, useCallback — each with a short description and a usage snippet
-    Layout: responsive grid with subtle shadows and rounded corners
-    Header: “React Hooks” + a Toggle theme button
-    --------------------------------------------------------
-    Header: “React Hooks”
-    Buttons:
-    Toggle theme (uses useContext + useState)
-    Show Filters (uses useToggle)
+        A company wants an internal admin dashboard where managers can:
 
+        1. View a list of users fetched from an API
 
-    Search bar: (uses useState + useDebouncedValue)
-    Loading indicator: (controlled by useEffect + useFetch)
-    List of hooks: dynamically rendered based on state.
+        2. Search users by name efficiently
 
-    This layout demonstrates how each hook ties into a real UI scenario.
+        3. Switch between light & dark themes globally
+
+        4. Improve performance for large datasets
+
+        Enhance UX with auto-focus and optimized rendering
+
+    - Business Requirements
+
+        1. Fetch users from a backend API on page load
+
+        2. Allow searching users by name
+
+        3. Avoid unnecessary re-rendering for better performance
+
+        4. Share theme state across multiple components
+
+        5. Improve usability (auto-focus search input)
+
+        6. Keep the app scalable and maintainable
 
 # Divide Component
