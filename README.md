@@ -64,4 +64,21 @@
 
         6. Keep the app scalable and maintainable
 
-# Divide Component
+# Component Architecture
+
+    UserDashBoard
+        - ThemeProvider(Context)
+            - Header
+                - ThemeToggle
+            - Searchbar
+            - UserList
+                - UserCard
+
+# Data Flow
+
+    1. App loads → useEffect fetches users
+    2. Search bar auto-focuses (useRef)
+    3. User types → search state updates (useState)
+    4. User list recalculates only when needed (useMemo)
+    5. Theme toggle updates UI globally (useContext)
+    6. Optimized handlers avoid re-renders (useCallback)
