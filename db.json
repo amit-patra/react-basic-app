@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Amit Patra",
+      "role": "Frontend Lead"
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "role": "Backend Dev"
+    }
+  ]
+}
