@@ -17,6 +17,12 @@
       "name": "Sara Lee",
       "role": "UI Designer",
       "gender": "Female"
+    },
+    {
+      "id": 3,
+      "name": "Rajesh",
+      "role": "HR",
+      "gender": "Male"
     }
   ]
 }
