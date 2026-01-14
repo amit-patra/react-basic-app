@@ -1,3 +1,8 @@
+# Run Command
+
+    - npm run dev
+    - json-server --watch db.json --port 3001
+
 # CSS
 
     - Configure Tailwind Css
