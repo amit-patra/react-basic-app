@@ -5,7 +5,6 @@ import useUserList from "../hooks/useUserList";
 
 const UserList = () => {
   const userList = useUserList();
-  console.log(userList);
   if (!userList.length) return <Shimmer />;
   return (
     <div className="pt-2">

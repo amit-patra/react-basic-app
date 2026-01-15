@@ -1,7 +1,6 @@
 import React from "react";
 
-const UserCard = (props) => {
-  const { name, role, gender } = props.userData;
+const UserCard = ({ userData: { name, role, gender } }) => {
   return (
     <div className="w-full p-2 bg-gray-200 rounded-md flex mt-2 dark:bg-gray-800">
       <span className="text-4xl pr-2 shadow-[0_0_0_1px_rgba(255,255,255,0.08)">

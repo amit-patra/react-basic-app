@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { USERS_URL } from "../utils/constant";
+import { USER_API } from "../utils/constant";
 
 const useUserList = () => {
   const [userList, setUserList] = useState([]);
@@ -8,7 +8,7 @@ const useUserList = () => {
   }, []);
 
   const getUserList = async () => {
-    const data = await fetch(USERS_URL);
+    const data = await fetch(USER_API);
     const json = await data.json();
     setUserList(json);
   };
